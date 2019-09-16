@@ -1,0 +1,355 @@
+/* Start Main Rules */
+
+body{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+.asterisk{
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #D20707;
+}
+.nice-massage{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0 ;
+    border-left: 5px solid #080;
+}
+/* Start Main Rules */
+
+/* Start Login Form */
+
+.login{
+
+    width: 300px;
+    margin: 100px auto;
+
+}
+
+.login h4 {
+
+    color: #888;
+
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+
+    background-color: #EAEAEA;
+
+}
+.login .btn{
+    background-color: #008dde;
+}
+
+/* End Login Form */
+
+/* Start BootStrab Edits */
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0
+}
+
+.nav > li > a ,
+.navbar-brand{
+    padding: 15px 12px;
+}
+
+.navbar-brand {
+    font-size: 1em;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu {
+    background-color: #0984e3;
+}
+.dropdown-menu{
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+}
+
+.dropdown-menu > li > a{
+    color: #FFF;
+    padding: 10px 14px;
+    transition: padding 0.5s ease
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color:#353b48;
+    color:#f5f6fa;
+    padding-left:23px
+}
+.form-group{
+    position: relative;
+}
+/* End BootStrab Edits */
+
+/* Start Dashboard Page */
+
+.home-stats .stat {
+    background-color: #eee;
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+.home-stats .stat i {
+  position: absolute;
+  font-size: 80px;
+  top: 35px;
+  left: 30px;
+}
+.home-stats .stat .info {
+    float: right;
+}
+.home-stats .stat a{
+    color: #FFF;
+}
+.home-stats .stat a:hover{
+    text-decoration: none;
+}
+.home-stats .stat span {
+    display: block;
+    font-size: 60px
+}
+.home-stats .st-members {
+    background-color: #95a5a6;
+}
+.home-stats .st-pending {
+    background-color: #3498db;
+}
+.home-stats .st-items {
+    background-color: #e55039;
+}
+.home-stats .st-comments {
+    background-color: #0c2461;
+}
+.latest{
+    margin-top: 30px;
+}
+.latest .toggle-info {
+  color: #999;
+  cursor: pointer;
+}
+.latest .toggle-info:hover {
+  color: #444;
+}
+.latest-users {
+    margin-bottom: 0;
+}
+.latest-users li:nth-child(odd){
+    background-color: #EEE;
+}
+.latest-users li{
+    padding: 10px;
+    overflow: hidden;
+}
+.latest-users .btn-success , .latest-users .btn-info {
+    padding: 2px 8px;
+}
+.latest-users .btn-info{
+    margin-right: 5px;
+}
+.latest .comment-box{
+    margin: 5px 0 10px ;  
+}
+.latest .comment-box .member-n ,
+.latest .comment-box .member-c {
+    float: left;
+}
+.latest .comment-box .member-n {
+    width: 82px;
+    text-align: center;
+    margin-right: 18px;
+    position: relative;
+    top: 10px;
+}
+.latest .comment-box .member-c {
+    width: calc(100% - 100px) ;
+    background-color: #efefef;
+    padding: 10px;
+    position: relative;
+}
+.latest .comment-box .member-c:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left:-28px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #efefef transparent transparent;
+    border-width: 15px; 
+}
+/* End Dashboard Page */
+
+/* Start Members Page */
+
+h1 {
+    font-size: 55px;
+    margin: 20px 0 ;
+    font-weight: bold;
+    color: #666;
+}
+.show-pass{
+    position: absolute;
+    top: 11px;
+    right: 48px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.main-table img {
+    width: 50px;
+    height: 50px;
+}
+.main-table {
+    box-shadow: 0 3px 10px #ccc;
+}
+.main-table td {
+    background: #FFF;
+    vertical-align: middle !important; /* make the text middle in hiegth from top and bottom , important to pervent vertical-align= top in bootstarab */
+}
+.main-table tr:first-child td { /* you can use Thead instead of tr:frist-child */
+    background-color: #333;
+    color: #FFF;
+
+}
+.main-table .btn {
+    padding: 3px 10px;
+
+}
+.activate {
+    margin-left: 5px
+}
+/* End Members Page */
+
+/* Start Categoiry Page */
+.categoires .panel-heading{
+    color: #959595;
+    font-weight: bold
+}
+.categoires .panel-heading i{
+    position: relative;
+    top: 1px;
+    font-size: 18px
+}
+.categoires .panel-body{
+    padding: 0;
+}
+.categoires .option a {
+    color: #777;
+    text-decoration: none;
+
+}
+.categoires .option span {
+    color: #777;
+    cursor: pointer;
+}
+.categoires .option .active {
+    color: #333;
+    font-weight: bold;
+
+}
+.categoires .cat{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.categoires .cat .hidden-buttons {
+    position: absolute;
+    top: 15px;
+    right:-120px;
+    transition: all 0.5s ease-in-out;
+}
+.categoires .cat:hover{
+    background-color: #EEE;
+}
+.categoires .cat:hover .hidden-buttons {
+    right: 10px;
+}
+.categoires .cat .hidden-buttons a {
+    margin-right: 5px;
+}
+.categoires hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.categoires .cat h3 {
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #6A6A6A;
+}
+.categoires .cat .full-view p {
+    margin: 10px 0 10px;
+    color: #707070;
+}
+.categoires .cat:last-of-type ~ hr {
+    display: none;
+}
+.categoires .cat .visibility{
+    background-color: #c0392b;
+    color: #fff;
+    padding: 4px 7px;
+    margin-right: 6px;
+    border-radius: 6px
+}
+.categoires .cat .commenting {
+    background-color: #34495e;
+    color: #fff;
+    padding: 4px 7px;
+    margin-right: 6px;
+    border-radius: 6px
+}
+.categoires .cat .advertises {
+    background-color: #0984e3;
+    color: #fff;
+    padding: 4px 7px;
+    margin-right: 6px;
+    border-radius: 6px
+}
+.categoires .add-category {
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+.categoires .child-head{
+    margin: 15px 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #10ac84;
+    background-color: #e9d8d8;
+    width: 150px;
+    border-right: 4px solid #aa94e9;
+    line-height: 35px;
+}
+.categoires .child-cats {
+    margin: 0;
+}
+.categoires .child-cats li {
+    margin-left: 15px;
+    margin-bottom: 8px;
+    line-height: 18px;
+}
+.categoires .child-cats li:before {
+    content: "- "
+}
+.categoires .show-delete {
+    color: #F00;
+    display: none;
+    margin-left: 10px;
+}
+/* End Categoiry Page */

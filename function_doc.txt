@@ -1,0 +1,13 @@
+=========================
+=== Function Document ===
+=========================
+
+
+getAllFrom($field , $table , $where = NULL , $and = NULL , $orderField , $ordering = 'DESC')
+
+    $filed      ==> the field to select from [* , SelectedElement]
+    $table      ==> the table which you need to select from
+    $where      ==> Where(condition) ,  can be empty to get all recorders without Specific values
+    $and        ==> set it empty if you don't wanna use it
+    $orderField ==> the column which you need to order by 
+    $ordering   ==> sort of order Default = Desc    [DESC , ASC]

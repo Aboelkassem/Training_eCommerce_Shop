@@ -1,0 +1,298 @@
+/* Start Main Rules */
+
+body{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+.input-container {
+    position: relative;
+}
+.asterisk{
+    font-size: 30px;
+    position: absolute;
+    right: 12px;
+    top: 1px;
+    color: rgb(204, 174, 174);
+}
+.main-form .asterisk{
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: rgb(204, 174, 174);
+}
+.nice-massage{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0 ;
+    border-left: 5px solid #080;
+}
+h1 {
+    font-size: 55px;
+    margin: 30px 0 ;
+    font-weight: bold;
+    color: #666;
+}
+/* Start Main Rules */
+
+
+/* Start BootStrab Edits */
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.nav > li > a ,
+.navbar-brand{
+    padding: 15px 12px;
+}
+
+.navbar-brand {
+    font-size: 1em;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu {
+    background-color: #020609cc;
+}
+.dropdown-menu{
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+}
+
+.dropdown-menu > li > a{
+    color: #FFF;
+    padding: 10px 14px;
+    transition: padding 0.5s ease
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color:#ffffff4d;
+    color:#f5f6fa;
+    padding-left:23px
+}
+.form-group{
+    position: relative;
+}
+/* End BootStrab Edits */
+
+/* Start Header */
+.upper-bar{
+    padding: 10px;
+    background-color: #fff;
+}
+.upper-bar img {
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+}
+/* End Header */
+
+/*Start Login Page */
+
+.login-cover {
+    background: url('../../login.jpg');
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-card {
+    width: 500px;
+    height: 700px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-bottom: 54px;
+    padding-top: 65px;
+    box-shadow: 5px 1px 17px #7b5050;
+}
+.login-page form
+, .the-errors {
+    max-width: 380px;
+    margin: auto;
+}
+.login-page form input{
+    margin-bottom: 15px;
+}
+.login-page [data-class="login"].selected{
+    color: #286090;
+}
+.login-page [data-class="signup"].selected{
+    color: #449D44;
+}
+.login-page h1 {
+    font-size: 55px;
+    margin: 30px 0 ;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+}
+.login-page h1 span {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.login-page h1 span:hover {
+    opacity: 1;
+}
+.login-page .signup {
+    display: none;
+}
+.login-page i {
+    position: absolute;
+    top: 3px;
+    left: -28px;
+    font-size: 22px;
+}
+.the-errors .msg {
+    padding: 10px;
+    text-align: left;
+    border-left: 5px solid #cd6858;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #919191;
+}
+/*End login Page */
+
+/* Start Categoires Page */
+
+.item-box{    
+    position: relative;
+    height: 355px;
+}
+.item-box .price-tag{    
+    background-color: rgb(100, 87, 87);
+    color: #fff;
+    padding: 2px 10px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+}
+.item-box .approve-status {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #b85a5a;
+    color: #FFF;
+    padding: 3px 5px;
+}
+.item-box .caption p {
+    height: 44px;
+    max-height: 44px;
+}
+/* End  Categoires Page */
+
+/* Start Profile Page */
+
+.information{
+    margin-top:  20px;
+}
+.information ul {
+    margin: 0;
+    padding: 0;
+}
+.information ul li {
+    padding: 10px;
+}
+.information ul li:nth-child(odd){
+    background-color: #D6D3D3;
+}
+.information ul li span {
+    display: inline-block;
+    width: 120px;
+}
+.thumbnail .date {
+    text-align: right;
+    font-size: 13px;
+    color: #AAA;
+    font-weight: bold;
+}
+.information .btn {
+    margin-top: 10px;
+}
+/* End profile Page  */
+
+/* start show item page  */
+.item-info h2 {
+    padding-left: 10px;
+    margin: 0;
+}
+.item-info p {
+    padding: 10px;
+}
+.item-info ul li{
+    padding: 10px ;
+}
+.item-info ul li:nth-child(odd){
+    background-color: #D6D3D3;
+}
+.item-info ul li span {
+    display: inline-block;
+    width: 120px;
+}
+.tags-items a {
+    display: inline-block;
+    background-color: #e2e2e2;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #666;
+    margin-right: 5px;
+}
+.add-comment h3 {
+    margin: 0 0 10px;
+}
+.add-comment textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 120px;
+}
+.comment-box {
+    margin-bottom: 20px;
+}
+.comment-box img {
+    max-width: 100px;
+    margin-bottom: 8px;
+}
+.comment-box .lead {
+    background-color: #e0e0e0;
+    position: relative;
+    padding: 10px;
+    margin-top: 27px;
+}
+.comment-box .lead:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width:  15px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
+
+/* End show item page  */
+
+/* Start Our Frame Work  */
+
+.custom-hr {
+    border-top: 1px solid #b18d8d;
+}
+/* End our frame work  */
